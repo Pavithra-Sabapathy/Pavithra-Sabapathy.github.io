@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav" class="fade-in">
+      <div class="logo"></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo"></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile" class="slide-in-left">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.jpeg" alt="Pavithra profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">PAVITHRA.S</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">
+            Resume
+          </button>
+        </div>
+        <div id="socials-container">
+          <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon bounce" onclick="location.href='https://www.linkedin.com/in/pavithra-s-a7b348293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'" />
+          <img src="./assets/github.png" alt="My Github profile" class="icon bounce" onclick="location.href='https://github.com/'" />
+        </div>
+      </div>
+    </section>
+    <section id="about" class="slide-in-right">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="./assets/education.png" alt="Education icon" class="icon" />
+              <h3 class="education-details">Education</h3>
+              <p>B.E<br />Computer Science and Engineering</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I discovered my passion for crafting immersive digital experiences through clean and
+              intuitive user interfaces. What excites me most about frontend development is the blend
+              of creativity and problem-solving it demands. I thrive on staying updated with the latest 
+              technologies and methodologies, constantly honing my skills to deliver cutting-edge solutions. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="fade-in">
+      <p class="section__text__p1">To know about My</p>
+      <h1 class="title">Skills</h1>
+      <div class="skills-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="skills-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article class="skill-box">
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article class="skill-box">
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article class="skill-box">
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>PHP</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article class="skill-box">
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article class="skill-box">
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>JSON</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article class="skill-box">
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Figma UI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="skills-sub-title">Programming Languages</h2>
+            <div class="article-container">
+              <article class="skill-box">
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Java</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article class="skill-box">
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article class="skill-box">
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>C</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="fade-inc">
+      <section id="contact" class="slide-in-left">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title" style="color:aliceblue;">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+            <p><a href="mailto:pavithra.s@ckcet.ac.in">pavithra.s1129@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+            <p><a href="https://www.linkedin.com/in/pavithra-s-a7b348293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a></p>
+          </div>
+        </div>
+      </section><br>
+      <p class="contact-copyright">Copyright &#169; 2024 PAVITHRA.S. All Rights Reserved.</p>
+    </footer>
+    <script>
+      document.querySelector(".hamburger-icon").addEventListener("click", function () {
+        this.classList.toggle("open");
+        document.querySelector(".menu-links").classList.toggle("open");
+      });
+    </script>
+  </body>
+</html>
