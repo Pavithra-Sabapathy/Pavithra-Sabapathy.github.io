@@ -425,7 +425,7 @@ section {
 /* Hover effect */
 .skill-box:hover {
   transform: scale(1.05); /* Slightly increase size on hover */
-  background-color: #e0e0e0; /* Change background color on hover */
+  background-color: #e0e0e0;
 }
 /* Skill Box */
 .skill-box {
